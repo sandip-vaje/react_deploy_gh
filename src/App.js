@@ -25,7 +25,7 @@ function App() {
     const fetchItems = async ()=>{
       try{
         const response = await fetch(API_URL);
-        if(!response.ok) throw Error("Error : ! Ops did not receive expected data");
+        if(!response.ok) throw Error("Error : ! Ops did not receive expected data.");
         const listItems = await response.json();
         setItems(listItems);
         setFetchError(null);
