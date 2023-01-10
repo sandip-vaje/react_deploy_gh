@@ -2,6 +2,7 @@
 
 # dependencies
 /node_modules
+/github_key
 /.pnp
 .pnp.js
 

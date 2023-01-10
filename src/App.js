@@ -14,7 +14,7 @@ function App() {
   const [newItem, setNewItem] = useState("");
 
   const [search, setSearch] = useState("");
-  const [fetchError, setFetchError] = useState("");
+  const [fetchError] = useState("");
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(()=>{
